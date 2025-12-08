@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Otros proyectos</title>
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="header-top">
+        <!--Logo-->
+        <img src="../img/logogiacomomarone.png" alt="Logotipo Giacomo Marone" class="logo-header">
+
+        <div class="header-titulos">
+        <!--Título y presentación-->
+            <h1>Giacomo Marone _ Blog personal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptatem sed neque voluptates dolor sint corporis, consequuntur maxime. Sunt, odio.</p>
+        </div>
+    </div>
+        <!-- Menú-->
+    
+        <div class="hamburger-container">
+            <button class="hamburger" aria-label="Abrir menú"> <!-- Menú hamburguesa -->
+                <i class="fa fa-bars"></i>
+            </button>
+        </div>    
+        <nav class="header-nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="informacion.html">Acerca de mí</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="otrosproyectos.html" class="activo">Otros proyectos</a></li>
+                <li><a href="fotografia.html">Fotografía</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+    
+<!-- Cuerpo de la página -->
+
+    <main>
+
+        <section class="cards">
+
+        <!--Artículo - Título 1-->
+            <article class="card">
+                <h2>Título 1.</h2>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati commodi velit recusandae accusantium est iste incidunt sapiente adipisci laborum nulla!!</p>
+                <a href="">Ver más +</a>
+            </article>
+
+        <!--Artículo - Título 2-->
+            <article class="card">
+                <h2>Título 2.</h2>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati commodi velit recusandae accusantium est iste incidunt sapiente adipisci laborum nulla!!</p>
+                <a href="">Ver más +</a>
+            </article>
+
+        <!--Artículo - Título 3-->
+            <article class="card">
+                <h2>Título 3.</h2>
+                <img src="" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati commodi velit recusandae accusantium est iste incidunt sapiente adipisci laborum nulla!!</p>
+                <a href="">Ver más +</a>
+            </article>
+
+        </section>    
+
+
+    </main>
+    
+<!-- Pie de página -->
+
+    <footer class="footer">
+
+        <div class="footer-links">
+            <!-- Enlace a Wpp -->
+            <a href="https://w.app/9wiqu1" target="_blank" rel="noopener noreferrer">
+                <img src="../img/logowpp.png" alt="logo whatsapp">+598 94 933 883
+            </a>
+            <!-- Enlace a Mail -->
+            <a href="mailto:giacomomarone.rgb@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src="../img/logomail.png" alt="logo mail">giacomomarone.rgb@gmail.com
+            </a>
+            <!-- Enlace a Linkedin -->
+            <a href="https://www.linkedin.com/in/giacomo-marone-b80044214?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bfdw7kfYMS5qVYf0uXoWH%2Fg%3D%3D" target="_blank" rel="noopener noreferrer">
+                <img src="../img/logolinkedin.png" alt="logo linkedin">www.linkedin.com/in/giacomo-marone-b80044214
+            </a>        
+        </div>
+
+        <div class="footer-logo">
+            <!--Logo-->
+            <img src="../img/logogiacomomarone.png" alt="Logotipo Giacomo Marone">
+        </div>
+
+    </footer>
+
+    <!-- Menú hamburguesa--> 
+<script>
+  const hamburger = document.querySelector(".hamburger");
+  const nav = document.querySelector(".header-nav");
+
+  hamburger.addEventListener("click", () => {
+    nav.classList.toggle("active");
+  });
+</script>
+
+    
+</body>
+</html>
