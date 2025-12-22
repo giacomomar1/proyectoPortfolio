@@ -1,0 +1,58 @@
+.header {
+  width: 100%;
+  text-align: center;
+  background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../img/header.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: $spacing-lg 0 0;
+  
+
+  &-top {
+    @extend %flex-center;
+    gap: $spacing-lg;
+  }
+
+  .logo-header {
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 1rem;
+  }
+
+  &-titulos {
+    h1 {
+      font-size: 2rem;
+      font-weight: 250;
+    }
+
+    p {
+      margin-top: $spacing-sm;
+      font-size: 1rem;
+    }
+  }
+}
+
+/* Navegación */
+.header-nav {
+  width: 100%;
+  background-color: $color-black;
+
+  ul {
+    @extend %flex-center;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 3rem;
+    margin-top: $spacing-lg;
+    padding: 0.3rem 0.6rem;
+  }
+
+  a {
+    @extend %link-reset;
+    font-size: 1rem;
+  }
+
+  .activo {
+    background: $color-white;
+    color: $color-black;
+    padding: 0.3rem 0.6rem;
+  }
+}

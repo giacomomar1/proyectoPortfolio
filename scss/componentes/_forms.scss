@@ -1,0 +1,19 @@
+.formulario {
+  @extend %flex-column;
+  align-items: center;
+  margin: $spacing-lg;
+}
+
+input[type="submit"] {
+  width: 72px;
+  height: 40px;
+  background-color: $color-gray;
+  border: none;
+  color: $color-white;
+
+  &:hover {
+    background-color: $color-white;
+    color: $color-black;
+    cursor: pointer;
+  }
+}

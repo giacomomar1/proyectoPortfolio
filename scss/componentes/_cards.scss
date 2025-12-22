@@ -1,0 +1,31 @@
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: $spacing-lg;
+  padding: $spacing-xl $spacing-md;
+}
+
+.card {
+  background: $color-dark;
+  padding: $spacing-md;
+  width: 25rem;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    margin-top: $spacing-sm;
+  }
+
+  p {
+    color: $color-light-gray;
+    font-size: 0.9rem;
+    margin-top: $spacing-md;
+  }
+
+  a {
+    @extend %link-reset;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-top: $spacing-md;
+  }
+}

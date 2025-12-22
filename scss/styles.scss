@@ -1,0 +1,44 @@
+@import "utilidades/variables";
+@import "utilidades/extends";
+
+@import "base/reset";
+@import "base/tipografia";
+
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+@import "componentes/cards";
+@import "componentes/forms";
+@import "componentes/hamburger";
+
+@media (max-width: $bp-tablet) {
+  .hamburger-container {
+    display: block;
+  }
+
+  .header-top {
+    flex-direction: column; 
+    margin-bottom: 1rem;
+  }
+
+  .header-nav ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  .header-nav.active ul {
+    display: flex;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+.hamburger-container {
+  width: 100%;
+  background: $color-black;
+  display: none;
+  padding: $spacing-sm $spacing-md;
+  text-align: right;
+  position: relative;
+  z-index: 20;
+}
+
+.hamburger {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  color: $color-white;
+  cursor: pointer;
+}

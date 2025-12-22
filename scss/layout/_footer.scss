@@ -1,0 +1,28 @@
+.footer {
+  width: 100%;
+  padding: 1rem 1rem;
+  background: $color-black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &-links {
+    @extend %flex-column;
+    gap: .3rem;
+
+    a {
+      @extend %link-reset;
+      font-size: .8rem;
+      color: $color-white;
+      text-decoration: none;
+    }
+  }
+
+  &-logo img {
+    width: 7rem;
+  }
+
+  &-logolinks img {
+    width: 3rem;
+  }
+}
