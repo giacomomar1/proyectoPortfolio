@@ -2,6 +2,49 @@
   @extend %flex-column;
   align-items: center;
   margin: $spacing-lg;
+  gap: 1rem;
+}
+
+.formulario-bloque {
+  display: block;
+  width: 100%;
+  margin: 1rem;
+  padding: .1rem;
+}
+
+textarea {
+  width: 100%;
+  height: 10rem;
+  border: 2px solid $color-dark;
+  margin-top: 5%;
+
+  &:hover {
+    border: 2px solid $color-white;
+    outline: none;
+  }
+}
+
+.boton-enviar {
+  display: block;
+  margin: 1rem;
+}
+
+input[type=text] {
+  border: 2px solid $color-dark;
+
+  &:hover {
+    border: 2px solid $color-white;
+    outline: none;
+  }
+}
+
+input[type=mail] {
+  border: 2px solid $color-dark;
+
+  &:hover {
+    border: 2px solid $color-white;
+    outline: none;
+  }
 }
 
 input[type="submit"] {

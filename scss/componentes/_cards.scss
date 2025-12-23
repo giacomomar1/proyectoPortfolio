@@ -29,3 +29,25 @@
     margin-top: $spacing-md;
   }
 }
+
+/* cards para página de info personal */
+.card-personal {
+  display: flex;
+  justify-content: center;
+}
+
+.card-personal img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;  
+  margin: 2rem;
+}
+
+.card-personal h2 {
+  margin-top: 2rem;
+}
+
+.card-personal p {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
