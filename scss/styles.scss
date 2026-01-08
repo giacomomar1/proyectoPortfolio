@@ -12,6 +12,7 @@
 @import "componentes/forms";
 @import "componentes/hamburger";
 
+
 @media (max-width: $bp-tablet) {
   .hamburger-container {
     display: block;
@@ -37,7 +38,6 @@
     padding: 2rem 3rem;
     gap: 3rem;
   }
-
 
   .card-personal {
     flex-direction: column;
